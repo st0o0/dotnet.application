@@ -1,0 +1,27 @@
+<Solution>
+  <Folder Name="/Domain/">
+    <Project Path="ProjectName.Core/ProjectName.Core.csproj" />
+    <Project Path="ProjectName.Messages/ProjectName.Messages.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="ProjectName.Tests/ProjectName.Tests.csproj" />
+    <Project Path="ProjectName.Tests.Shared/ProjectName.Tests.Shared.csproj" />
+    <Project Path="ProjectName.Architecture.Tests/ProjectName.Architecture.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="global.json" />
+  </Folder>
+  <Folder Name="/Solution Items/Actions/">
+    <File Path="../.github/workflows/ci.yml" />
+    <File Path="../.github/workflows/release.yml" />
+    <File Path="../.github/workflows/security.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/Repo/">
+    <File Path="../LICENSE" />
+    <File Path="../README.md" />
+    <File Path="../Dockerfile" />
+  </Folder>
+  <Project Path="ProjectName/ProjectName.csproj" />
+</Solution>

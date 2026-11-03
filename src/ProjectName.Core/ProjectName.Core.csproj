@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="Akka.Cluster.Sharding" />
+    <PackageReference Include="Akka.Streams" />
+    <PackageReference Include="Terp" />
+    <PackageReference Include="Terp.Akka" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectName.Messages\ProjectName.Messages.csproj" />
+  </ItemGroup>
+
+</Project>

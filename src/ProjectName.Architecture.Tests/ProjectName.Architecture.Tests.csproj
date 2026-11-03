@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TngTech.ArchUnitNET.xUnitV3" />
+    <PackageReference Include="xunit.v3.mtp-v2" />
+    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectName\ProjectName.csproj" />
+    <ProjectReference Include="..\ProjectName.Core\ProjectName.Core.csproj" />
+    <ProjectReference Include="..\ProjectName.Messages\ProjectName.Messages.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+    <Using Include="ArchUnitNET.Fluent" />
+    <Using Include="ArchUnitNET.xUnitV3" />
+  </ItemGroup>
+
+</Project>
